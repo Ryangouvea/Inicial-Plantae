@@ -5,9 +5,41 @@ body {
     margin: 0;
     font-family: 'NotoSans', sans-serif ;
     color: white;
+    background-color: #0e0918;
+    color: white;
+    max-width: 1200px;
+    padding: 15px;
 }
 body * {
     box-sizing: border-box;
+}
+.title >h1{
+    color: #514869;
+    font-weight: 200;
+    font-size: 34pt;
+    font-weight: 800;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+
+}
+a{
+    color: white
+}
+a:hover{
+    transition: 0.3s all;
+    color: rgb(132,14,201);
 }
 .main-login{
     padding: 18px;
